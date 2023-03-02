@@ -5,7 +5,7 @@ import { IoIosPeople } from 'react-icons/io'
 
 function HeroSection() {
     return (
-        <section className='flex justify-between bg-[#F6FDFA]'>
+        <section className='flex flex-col lg:flex-row  lg:justify-between justify-center items-center bg-[#F6FDFA]'>
             <div className='mt-[202px]'>
                 <h1 className='text-7xl text-text-color font-bold mb-5'>No more waiting to access a healthworker.</h1>
                 <p className='font-normal text-xl text-text-color'>Access healthworkers without delay wherever and whenever</p>

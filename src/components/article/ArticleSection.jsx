@@ -1,6 +1,7 @@
 import React from 'react'
 import Headings from '../singleComponents/Headings'
 import ArticlePic from '../images/articleMain.png'
+import Article1 from '../images/article1.png'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 function ArticleSection() {
   const date = new Date();
@@ -10,18 +11,33 @@ function ArticleSection() {
     <section>
       <Headings text='Daily curated articles for your healthcare'/>
       <div className='flex mt-16'>
-        <div cl>
+        <div>
+        <div className='overflow-hidden rounded-xl'>
           <img src={ArticlePic} alt="" />
+        </div>
           <p className='text-[#38805D] rounded-md  mt-4 mb-5'>{month} {year}</p>
-          <h3>Moderna vaccine recipient survey: side effect of the ten day injection </h3>
+          <h3 className='font-semibold text-lg'>Moderna vaccine recipient survey: side effect of the ten day injection </h3>
           <p className='mt-5 mb-7'>Regular use of laxatives may increase the risk of dementia, especially among those who use multiple types of laxatives or osmotic laxatives, new research suggests.</p>
-          <div className='text-xl text-main-color inline-block'>Learn More <AiOutlineArrowRight className=' inline-block' />
+          <div className='text-normal text-[#DC362E] inline-block'>Learn More <AiOutlineArrowRight className=' inline-block' />
+          </div>
+       
+</div>
+
+
+        <div>
+          <div className='flex justify-between'>
+            <h3>Whats New?</h3>
+          <div className='text-normal text-[#DC362E] inline-block'>Learn More <AiOutlineArrowRight className=' inline-block' />
+          </div>
+          </div>
+          <div className='shadow-xl'>
+            <div>
+              <img src={Article1} alt="" />
+              <h3>Getting good sleep could add years to your life....</h3>
+              <p>Getting good sleep can play a role in supporting your heart and overall health</p>
+</div>
           </div>
         </div>
-
-
-
-        <div></div>
       </div>
     </section>
   )

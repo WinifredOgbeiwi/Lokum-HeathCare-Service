@@ -3,9 +3,9 @@ import MedicalWoman from '../images/medicalWoman.png'
 import HireMeList from './HireMeList'
 function HireSection() {
   return (
-    <section>
+    <section >
       <div className='mt-28  text-center lg:text-left'>
-        <h2 className='font-bold  text-4xl xl:text-6xl mb-3 w-[500px] xl:w-[820px]'>Your healthfacility can serve patients effeciently without breaking the bank </h2>
+        <h2 className='font-bold  text-4xl xl:text-6xl mb-3 w-[450px] xl:w-[820px]'>Your healthfacility can serve patients effeciently without breaking the bank </h2>
       <p className='text-base'>Hire healthworkers for your business and pay them per hour.</p>
       </div>
       <div className='flex flex-col lg:flex-row justify-between mt-12 lg:mt-16 items-center'>
@@ -17,8 +17,10 @@ function HireSection() {
         </div>
         <img src={MedicalWoman} alt="" className='w-30 lg:w-96'/>
       </div>
+      <div className='flex items-center justify-center md:justify-start'>
       <button className='bg-[#38805D] text-white rounded-[4px] w-[250px] h-[57px] mt-8'>Hire HealthWorker</button>
   
+      </div>
     </section>
   )
 }

@@ -6,7 +6,6 @@ import twoPeople from './images/twoPeople.png'
 import Headings from './singleComponents/Headings'
 function WhyChooseUs() {
   const boxStyle = {
-    width: '17rem',
     height: '238px',
     display: 'flex',
     flexDirection:'column',
@@ -29,7 +28,7 @@ function WhyChooseUs() {
           <h3>Access healthcare<br /> worker</h3>
         </div>
 
-        <div style={boxStyle} className='bg-[#FFFDF0]'>
+        <div style={boxStyle} className='bg-[#FFFDF0] w-'>
           <img src={twoPeople} alt="" />
           <h3>24/7<br /> Support</h3>
         </div>

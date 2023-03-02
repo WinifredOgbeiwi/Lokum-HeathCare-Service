@@ -13,4 +13,5 @@ letter-spacing: 0.01.5em;
 }
 section{
   padding:0 80px;
+  overflow-x: hidden;
 }
