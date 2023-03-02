@@ -4,8 +4,7 @@ function Headings(props) {
     return (
         <>
             <div className='flex flex-col items-center mt-10'>
-                <h2 className='text-4xl font-semibold text-text-color'>{props.text}</h2>
-                <div className='w-[4.5rem] border-2 border-main-color rounded mt-1'></div>
+                <h2 className='text-6xl font-bold text-[#060E0A]'>{props.text}</h2>
             </div>
         </>
     )

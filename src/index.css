@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 0.01.5em;
 }
 section{
-  padding:0 120px;
+  padding:0 80px;
 }
