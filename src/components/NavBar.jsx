@@ -14,15 +14,15 @@ function NavBar() {
           <ul className='hidden lg:flex gap-10 text-base tracking-wide '>
 
             <div>
-              <li className=' flex gap-1 mb-2' >
+              <li className=' flex gap-1 mb-2 cursor-pointer' >
                 <a href="/">Find Healthcareworker
                 <MdKeyboardArrowDown className='mt-1' /></a> </li>
             </div>
-            <li className='flex gap-1'>
+            <li className='flex gap-1 cursor-pointer'>
               Find Patient
               <MdKeyboardArrowDown className='mt-1' />
             </li>
-            <li className='flex gap-1'>
+            <li className='flex gap-1 cursor-pointer'>
               Hire Healthcareworker
               <MdKeyboardArrowDown className='mt-1' />
             </li>
