@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+       "quote":"“ I recently used this healthcare website fot the first time and i'm so glad i did. it was easy to navigate and i was able to find the information i needed quickly. Highly recommend!”" ,
+       "image":"/images/avartar1.png",
+       "name":"Favour"
+    },
+  
+     {
+        "id":2,
+       "quote":"“  I recently used this healthcare website fot the first time and i'm so glad i did. it was easy to navigate and i was able to find the information i needed quickly. Highly recommend! ”" ,
+       "image":"/images/avartar2.png",
+       "name":"Favour"
+    },
+    {
+        "id":3,
+       "quote":"'“  I recently used this healthcare website fot the first time and i'm so glad i did. it was easy to navigate and i was able to find the information i needed quickly. Highly recommend! ”'" ,
+       "image":"/images/avartar2.png",
+       "name":"Favour"
+    }
+]

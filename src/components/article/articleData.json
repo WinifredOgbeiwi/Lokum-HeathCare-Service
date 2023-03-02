@@ -1,0 +1,22 @@
+[
+    {
+        "id":"",
+         "image":"/images/article1.png",
+        "heading":"Getting good sleep could add years to your life....",
+        "paragraph":"Getting good sleep can play a role in supporting your heart and overall health"
+    },
+
+    {
+        "id":2,
+         "image":"/images/article2.png",
+        "heading":"How to prevent yourself stress",
+        "paragraph":"Getting good sleep can play a role in supporting your heart and overall health"
+    },
+
+    {
+        "id":"",
+        "image":"/images/article3.png",
+        "heading":"Benefit of getting medical checkup every months.........",
+       "paragraph":"Getting good sleep can play a role in supporting your heart and overall health"
+    }
+]

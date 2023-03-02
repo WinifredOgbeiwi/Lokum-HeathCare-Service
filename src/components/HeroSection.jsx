@@ -15,12 +15,12 @@ function HeroSection() {
             <div className='relative'>
                 <div className='bg-[#E8FBF2] flex items-center justify-between w-[234px] h-[72px] rounded p-4 absolute top-28 left-20 '>
                     <IoIosPeople className='text-2xl' />
-                    <p className='text-lg font-normal w-[153px] '>Trained Healthcare Practitional</p>
+                    <p className='text-normal font-normal w-[153px] '>Trained Healthcare Practitional</p>
                 </div>
 
-                <div className='bg-[#E8FBF2] flex items-center justify-between w-[234px] h-[72px] rounded p-4 absolute top-40 right-[-8rem]'>
+                <div className='bg-[#E8FBF2] flex items-center justify-between w-[224px] h-[72px] rounded p-4 absolute top-40 right-[-4rem]'>
                     <FaHeart className='text-2xl' />
-                    <p className='text-lg font-normal w-[153px] '>We have your best interest at heart</p>
+                    <p className='text-normal font-normal w-[153px] '>We have your best interest at heart</p>
                 </div>
                 <div>
                     <img src={HeroPic} alt="" className='ml-32 mt-60 w-[100rem]'/>

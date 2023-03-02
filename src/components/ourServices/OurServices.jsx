@@ -1,5 +1,5 @@
 import React from 'react'
-import Headings from '../singleComponents/Headings'
+
 import MedicalMan from '../images/medicalMan.png'
 import ListSection from './ListSection'
 function OurServices() {
