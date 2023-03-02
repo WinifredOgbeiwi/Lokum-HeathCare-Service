@@ -1,0 +1,28 @@
+[
+  {
+    "index": 1,
+    "question": "Is Lokum free?",
+    "answer":
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sapiente harum rem? Necessitatibus iure cumque natus. Beatae modi consequatur temporibus."
+  },
+  {
+    "index": 2,
+    "question": "Does Cholestrol in Food Count",
+    "answer": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sapiente harum rem? Necessitatibus iure cumque natus."
+  },
+  {
+    "index": 3,
+    "question": "Are my Medical History saved?",
+    "answer":
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sapiente harum rem? Necessitatibus iure cumque natus. Beatae modi consequatur temporibus."
+  },
+  {
+    "index": 4,
+    "question": "How do i get started?",
+    "answer": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sapiente harum rem? Necessitatibus iure cumque natus."
+  },
+  {
+    "index": 5,
+    "question": "Is Microwave Food Unsafe?",
+    "answer": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sapiente harum rem."
+  }]

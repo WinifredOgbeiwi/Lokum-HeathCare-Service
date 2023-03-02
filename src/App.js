@@ -1,5 +1,7 @@
 import React from 'react'
 import ArticleSection from './components/article/ArticleSection';
+import FaqSection from './components/FAQsection/FaqSection';
+import Footer from './components/footer/Footer';
 import HeroSection from './components/HeroSection'
 import HireSection from "./components/HireMe/HireSection";
 import NavBar from './components/NavBar'
@@ -17,6 +19,8 @@ function App() {
       <HireSection/>
       <ReviewSection/>
       <ArticleSection/>
+      <FaqSection/>
+      <Footer/>
     </>
   )
 }
