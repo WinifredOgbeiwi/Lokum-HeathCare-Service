@@ -24,7 +24,7 @@ function ArticleSection() {
     )
   })
   return (
-    <section>
+    <section className='mt-10'>
       <Headings text='Daily curated articles for your healthcare' />
       <div className='flex flex-col xl:flex-row xl:items-center items-start mt-16'>
         <div>

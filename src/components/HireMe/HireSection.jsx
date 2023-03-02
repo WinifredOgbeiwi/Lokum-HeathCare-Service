@@ -5,7 +5,7 @@ function HireSection() {
   return (
     <section >
       <div className='mt-28 lg:text-left'>
-        <h2 className='font-bold  text-4xl xl:text-6xl mb-3 w-[450px] xl:w-[820px]'>Your healthfacility can serve patients effeciently without breaking the bank </h2>
+        <h2 className='font-bold leading-tight text-4xl xl:text-6xl mb-3 w-[450px] md:w-[45rem]'>Your healthfacility can serve patients effeciently without breaking the bank </h2>
       <p className='text-base'>Hire healthworkers for your business and pay them per hour.</p>
       </div>
       <div className='flex flex-col lg:flex-row justify-between mt-12 lg:mt-16 items-center'>

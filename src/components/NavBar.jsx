@@ -11,12 +11,12 @@ function NavBar() {
       <nav className='flex justify-between items-center shadow-2xl h-[120px] pr-6'>
         <div className='flex items-center'>
           <img src={Logo} alt="" />
-          <ul className='hidden lg:flex gap-10 text-sm tracking-wide '>
+          <ul className='hidden lg:flex gap-10 text-[12px] tracking-wide '>
 
             <div>
               <li className=' flex gap-1 mb-2 cursor-pointer' >
-                <a href="/">Find Healthcareworker
-                <MdKeyboardArrowDown className='mt-1' /></a> </li>
+                Find Healthcareworker
+                <MdKeyboardArrowDown className='mt-1' /></li>
             </div>
             <li className='flex gap-1 cursor-pointer'>
               Find Patient
@@ -29,16 +29,16 @@ function NavBar() {
           </ul>
         </div>
 
-        <div className='hidden xl:flex items-center gap-6 '>
+        <div className='hidden xl:flex items-center gap-6 text-sm'>
           <div className='flex flex-row text-sm md:text-base relative  overflow-hidden rounded-lg'>
-            <FiSearch className=' text-xl absolute top-[15px] left-3' />
-            <input type="text" placeholder='Search' className='w-[12rem] md:w-[25rem] lg:w-[10rem] h-12  font-light  px-10 text-start bg-[#E8FBF2] text-black placeholder-slate-900' />
+            <FiSearch className=' text-md absolute top-[17px] left-3' />
+            <input type="text" placeholder='Search' className='w-[12rem] md:w-[25rem] lg:w-[10rem] h-12  font-light  px-10 text-start bg-[#E8FBF2] text-black placeholder-slate-900 placeholder:text-sm' />
             <div className='border-l-2 border-black bg-[#E8FBF2]
-        w-[5rem] md:w-[10rem] h-12 flex items-center justify-center text-sm gap-1 text-black' >Healthcareworker <MdKeyboardArrowDown className='mt-1' /></div>
+        w-[5rem] md:w-[10rem] h-12 flex items-center justify-center text-xs gap-1 text-black' >Healthcareworker <MdKeyboardArrowDown className='mt-1' /></div>
           </div>
 
-          <button className='w-[100px] h-[45px] rounded-md border-2 border-[#38805D]'>Log in</button>
-          <button className='w-[100px] h-[45px] bg-[#38805D] rounded-md border-2 border-[#38805D]'>Sign up</button>
+          <button className='w-[100px] h-[45px] rounded-md border-2 border-[#38805D] text-[#38805D]'>Log in</button>
+          <button className='w-[100px] h-[45px] bg-[#38805D] rounded-md border-2 border-[#38805D] text-white'>Sign up</button>
         </div>
 
         <div
