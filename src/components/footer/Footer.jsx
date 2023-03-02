@@ -10,7 +10,7 @@ function Footer() {
     <section className=''>
       <div className='flex flex-col lg:flex-row items-center justify-start gap-40 pt-20 text-base md:text-2xl lg:text-base'>
         <img src={Logo} alt="Medfile Logo" className='mt-[-16rem]' />
-        <div className='flex flex-row gap-40'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  lg:gap-40'>
 
 
           {links.map(({ id, heading, list }) => {
@@ -50,19 +50,19 @@ function Footer() {
         </div>
 
       </div>
-      <div className='ml-[310px] mt-[-20px] text-[#137866]'>
+      <div className='mt-[40px] ml-[200px] md:ml-[100px] md:mt-[40px] lg:ml-[310px] lg:mt-[-20px] hover:text-white text-[#137866]'>
       <div className='font-semibold text-sm'>FOLLOW US ON SOCIAL MEDIA </div>
       <div className='flex my-6 gap-3 '>
         
-        <div className='w-10 h-10 rounded-full border-2 border-[#137866] flex items-center justify-center '>
+          <div className='w-10 h-10 rounded-full border-2 hover:bg-[#137866] border-[#137866] flex items-center justify-center '>
           <FaTwitter className='' />
         </div>
 
-        <div className='w-10 h-10 rounded-full border-2 border-[#137866] flex items-center justify-center'>
+          <div className='w-10 h-10 rounded-full border-2 border-[#137866] flex items-center justify-center  hover:bg-[#137866]'>
           <FaLinkedinIn className='' />
         </div>
 
-        <div className='w-10 h-10 rounded-full border-2 border-[#137866] flex items-center justify-center '>
+          <div className='w-10 h-10 rounded-full border-2 border-[#137866] flex items-center justify-center  hover:bg-[#137866]'>
           <FaInstagram className='' />
         </div>
 </div>

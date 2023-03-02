@@ -4,7 +4,7 @@ import HireMeList from './HireMeList'
 function HireSection() {
   return (
     <section >
-      <div className='mt-28  text-center lg:text-left'>
+      <div className='mt-28 lg:text-left'>
         <h2 className='font-bold  text-4xl xl:text-6xl mb-3 w-[450px] xl:w-[820px]'>Your healthfacility can serve patients effeciently without breaking the bank </h2>
       <p className='text-base'>Hire healthworkers for your business and pay them per hour.</p>
       </div>

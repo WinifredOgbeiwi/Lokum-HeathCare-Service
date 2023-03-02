@@ -11,7 +11,7 @@ function NavBar() {
       <nav className='flex justify-between items-center shadow-2xl h-[120px] pr-6'>
         <div className='flex items-center'>
           <img src={Logo} alt="" />
-          <ul className='hidden lg:flex gap-10 text-base tracking-wide '>
+          <ul className='hidden lg:flex gap-10 text-sm tracking-wide '>
 
             <div>
               <li className=' flex gap-1 mb-2 cursor-pointer' >
