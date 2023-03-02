@@ -6,7 +6,7 @@ function ReviewSection() {
     const Review = ReviewList.map(review => {
         return (
             <>
-                <div key={review.id} className='flex flex-col justify-center items-center gap-10 p-8 shadow-xl'>
+                <div key={review.id} className='flex flex-col justify-center items-center  p-8 shadow-xl'>
                     <p className='text-center text-lg'>{review.quote}</p>
 
                     <div className='flex items-center gap-3'>
@@ -20,12 +20,12 @@ function ReviewSection() {
         )
     })
     return (
-        <section className='bg-light-green p-28 mt-20'>
+        <section className='bg-light-green p-5 mt-20'>
             <Headings text='Our reviews' />
             <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-10'>
-    
-            {Review}
-</div>
+
+                {Review}
+            </div>
         </section>
     )
 }

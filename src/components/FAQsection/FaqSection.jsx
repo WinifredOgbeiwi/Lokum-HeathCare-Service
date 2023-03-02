@@ -5,7 +5,7 @@ import FAQpage from './FAQpage';
 import FAQimg from '../images/FAQimage.png'
 function FaqSection() {
   return (
-    <section className='bg-[#F6FDFA]'>
+    <section className='bg-[#F6FDFA] mt-20'>
           <div className='mb-[85px] mt-24'>
               <Headings text='Frequently Asked Questions' />
           </div>
