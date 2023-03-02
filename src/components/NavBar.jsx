@@ -15,8 +15,8 @@ function NavBar() {
 
             <div>
               <li className=' flex gap-1 mb-2' >
-                Find Healthcareworker
-                <MdKeyboardArrowDown className='mt-1' /> </li>
+                <a href="/">Find Healthcareworker
+                <MdKeyboardArrowDown className='mt-1' /></a> </li>
             </div>
             <li className='flex gap-1'>
               Find Patient

@@ -11,7 +11,18 @@
 font-family: 'Open Sans', sans-serif;
 letter-spacing: 0.01.5em;
 }
+body{
+  max-width: 1440px;
+  margin-inline: auto;
+  height: 100vh;
+}
 section{
-  padding:0 80px;
+  padding:0 5rem;
   overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 0 1rem;
+
+  }
 }
