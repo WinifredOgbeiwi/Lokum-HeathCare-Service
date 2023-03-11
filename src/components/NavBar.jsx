@@ -50,11 +50,7 @@ function NavBar() {
         {/* links for responsive navbar */}
         {nav && (
           <>
-            
-
-
-
-
+        
             <div className='flex flex-col items-center absolute top-0 z-50 right-0  w-80 h-screen bg-[#E8FBF2] text-white xl:hidden' onClick={() => setNav(!nav)}>
              
               <ul className='lg:hidden flex flex-col gap-10 text-base text-[#38805D] tracking-wide mt-20 '>

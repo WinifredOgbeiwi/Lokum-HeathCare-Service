@@ -22,7 +22,7 @@ function ReviewSection() {
     return (
         <section className='bg-light-green p-5 mt-20'>
             <Headings text='Our reviews' />
-            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10'>
 
                 {Review}
             </div>
