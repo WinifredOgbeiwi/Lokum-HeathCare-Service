@@ -10,7 +10,8 @@ function NavBar() {
     <>
       <nav className='flex justify-between items-center shadow-2xl h-[120px] pr-6'>
         <div className='flex items-center'>
-          <img src={Logo} alt="" />
+         <a href="/">
+          <img src={Logo} alt="" /></a>
           <ul className='hidden lg:flex gap-10 text-[12px] tracking-wide '>
 
             <div>
