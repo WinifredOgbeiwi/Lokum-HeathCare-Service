@@ -23,7 +23,7 @@ function HeroSection() {
                     <p className='text-normal font-normal w-[153px] '>We have your best interest at heart</p>
                 </div>
                 <div>
-                    <img src={HeroPic} alt="" className='ml-32 mt-60 w-[100rem]'/>
+                    <img src={HeroPic} alt="" className='md:ml-32 mt-60 w-full'/>
                 </div>
             </div>
         </section>

@@ -10,7 +10,7 @@ function ArticleSection() {
 
   const articleData = ArticleData.map(({ id, image, heading, paragraph }) => {
     return (
-      <div key={id} className='shadow-xl w-[450px] md:w-[700px] xl:w-[600px] rounded-xl '>
+      <div key={id} className='shadow-xl w-full rounded-xl '>
         <div className='flex items-center gap-4 p-4'>
           <div className='rounded-lg overflow-hidden'>
             <img src={image} alt="" />
@@ -26,9 +26,9 @@ function ArticleSection() {
   return (
     <section className='mt-10'>
       <Headings text='Daily curated articles for your healthcare' />
-      <div className='flex flex-col xl:flex-row xl:items-center items-start mt-16'>
-        <div>
-          <div className='overflow-hidden w-[35rem] rounded-xl'>
+      <div className='flex flex-col md:flex-row md:items-center items-start mt-16'>
+        <div className='md:w-7/12 w-full'>
+          <div className='overflow-hidden rounded-xl'>
             <img src={ArticlePic} alt="" />
           </div>
           <p className='text-[#38805D] rounded-md mt-4 mb-5'>{month} {year}</p>
@@ -38,16 +38,13 @@ function ArticleSection() {
           </div>
         </div>
 
-        <div>
+        <div className='md:w-5/12 w-full'>
           <div className='flex justify-between px-5 mt-5 xl:mt-0'>
             <h3>Whats New?</h3>
             <div className='text-normal text-[#DC362E] inline-block'>See More <AiOutlineArrowRight className=' inline-block' />
             </div>
           </div>
-
           {articleData}
-
-
         </div>
       </div>
     </section>
