@@ -6,7 +6,7 @@ import { IoIosPeople } from 'react-icons/io'
 function HeroSection() {
     return (
         <section className='flex flex-col lg:flex-row  lg:justify-between justify-center items-center bg-[#F6FDFA]'>
-            <div className='mt-[100px] md:mt-[202px]'>
+            <div className='mt-[70px] sm:mt-[202px]'>
                 <h1 className='text-5xl md:text-7xl text-text-color font-bold mb-5'>No more waiting to access a healthworker.</h1>
                 <p className='font-normal text-xl text-text-color'>Access healthworkers without delay wherever and whenever</p>
                 <button className='bg-[#38805D] hover:bg-[#085933] text-white rounded-[4px] w-[200px] md:w-[280px] h-[57px] mt-[66px]'>Request Healthworker</button>
